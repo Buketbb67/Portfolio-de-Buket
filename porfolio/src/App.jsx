@@ -10,6 +10,8 @@ import Cancersein from "./pages/cancersein.jsx";
 import Mario from "./pages/mariobros.jsx";
 import Jourdepassement from "./pages/jourdepassement.jsx";
 
+
+
 function App() {
     return (
         <Router>
@@ -22,7 +24,6 @@ function App() {
                     <Route path="/jourdepassement" element={<Jourdepassement/>}/>
                 <Route path="/aproposdemoi" element={<Aproposdemoi/>}/>
                 <Route path="/contact" element={<Contact/>}/>
-
             </Routes>
         </Router>
     );
