@@ -31,12 +31,12 @@ function Boutonapropos() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center mt-8 space-y-6">
+    <div className="flex flex-col items-center justify-between h-full">
       <div className="text-md text-center px-6 whitespace-pre-line max-w-2xl ">
         {pages[page]}
       </div>
 
-      <div className="flex justify-between w-full max-w-sm px-4">
+      <div className="flex justify-between w-full max-w-sm px-4 self-center">
         <Bouton label="← Précédent" onClick={goBack} />
         <Bouton label="Suivant →" onClick={goNext} />
       </div>
