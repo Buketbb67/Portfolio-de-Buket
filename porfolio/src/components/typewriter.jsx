@@ -29,7 +29,7 @@ function useTypewriter(text, speed = 50) {
 function Typewriter ({ text, speed }) {
   const displayText = useTypewriter(text, speed);
 
-  return <p className="text-right border-2 border-[#B68CD1] p-4 bg-white rounded shadow">
+  return <p>
       {displayText}
         </p>
 }
