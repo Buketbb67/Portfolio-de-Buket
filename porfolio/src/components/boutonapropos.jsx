@@ -3,7 +3,7 @@ import React, { useState } from "react";
 function Bouton({ label, onClick }) {
   return (
     <button
-      className="bg-white border-2 border-orange-200 rounded px-4 py-2 hover:bg-orange-100 transition text-center text-xl"
+      className="bg-white border-2 border-[#B68CD1] text-[#6546da] rounded px-4 py-2 hover:bg-[#F0E6F7] transition text-center text-xl"
       onClick={onClick}
     >
       {label}
@@ -32,11 +32,11 @@ function Boutonapropos() {
 
   return (
     <div className="flex flex-col items-center justify-between h-full">
-      <div className="text-md text-center px-6 whitespace-pre-line max-w-2xl ">
+      <div className="text-md text-[#6546da] text-center px-6 whitespace-pre-line max-w-2xl ">
         {pages[page]}
       </div>
 
-      <div className="flex justify-between w-full max-w-sm px-4 self-center">
+      <div className="flex justify-between w-full max-w-sm px-4 self-center mt-8">
         <Bouton label="← Précédent" onClick={goBack} />
         <Bouton label="Suivant →" onClick={goNext} />
       </div>

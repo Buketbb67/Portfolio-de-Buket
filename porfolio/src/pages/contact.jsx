@@ -8,13 +8,29 @@ function Contact() {
         Contact
       </h1>
 
-      {/* Callme placé en absolu à gauche */}
-      <div className="absolute left-10 top-40 w-1/5">
-        <Callme />
+    <div className="flex flex-col lg:flex-row justify-center items-start gap-10">
+       
+       <div className="bg-white p-8 rounded-lg border-4 border-[#B68CD1] shadow-md max-w-md w-full">
+        <p className="text-[#744D8C] font-medium mb-1" htmlFor="phraseintro">
+          Vous avez une idée de projet et vous souhaitez le réaliser avec moi ? <br/>
+          Vous voulez me rencontrer pour en discuter ? 
+          </p>
+           <img
+              src="/Buketcut.png"
+              alt="Avatar"
+              className="w-full h-auto mb-4 rounded-full"
+            />
+          <p className="text-[#744D8C] font-medium mb-1" htmlFor="contact">
+           Contactez-moi : <br/> <br/>
+          <i className='bx  bx-phone'  style={{ color: "#5a46e0", width: "36px", height: "36px" }}></i>
+          07.81.69.60.87 <br/>
+          <i class='bx  bx-at'  style={{ color: "#5a46e0", width: "36px", height: "36px" }}></i> 
+          buket.bagci@epitech.eu <br/>
+          </p>
       </div>
 
-      {/* Formulaire parfaitement centré */}
-      <form className="mx-auto max-w-lg bg-white p-8 rounded-lg border-4 border-[#B68CD1] shadow-md space-y-6">
+      {/* Formulaire centré */}
+      <form className="bg-white p-8 rounded-lg border-4 border-[#B68CD1] shadow-md max-w-lg w-full space-y-6">
         <h2 className="text-4xl text-[#744D8C] font-bold text-center">
           Formulaire de contact
         </h2>
@@ -91,6 +107,7 @@ function Contact() {
           Envoyer
         </button>
       </form>
+    </div>
     </div>
   );
 }
