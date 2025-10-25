@@ -47,7 +47,7 @@ return (
           overflow-auto
           mb-8">
 
-        <div className="text-xl text-center text-[#6546da]">
+        <div className="text-lg sm:texte-xl text-center text-[#6546da]">
           <Typewriter 
             text={" Cliquez sur une touche pour découvrir mes compétences !"}
             speed={30}
@@ -55,18 +55,18 @@ return (
         </div>
 
 {message && (
-          <div className="text-center text-[#6546da] text-md mt-4 px-4 whitespace-pre-line">
+          <div className="text-center text-[#6546da] texte-sm sm:text-md mt-4 px-4 whitespace-pre-line">
             {message}
           </div>
         )}
       </div>
 
 
-<div className="w-full flex justify-center items-end gap-x-6 mt-10 relative">
+<div className="w-full flex-col items-center justify-center gap-y-4  sm:gap-y-6">
  <div className="bg-white border-4 border-[#B68CD1] shadow-md p-4 z-10">
    
     <div className="clavier space-y-2">
-        <div className="ligneun flex space-x-2">
+        <div className="ligneun flex flex-wrap justify-center gap-2 sm:gap-3">
             <div className="bg-white border-2 border-violet-300 rounded px-1 py-1 hover:bg-[#F0E6F7] transition text-3xl text-[#6546da]">
             <Affichage value="GIT-GITHUB" onClick={(value) => 
                 setMessage("Versioning avec Git,\n Commits clairs et réguliers,\n Branches et merges,\n Depôts publics sur GitHub,\n Déploiement via GitHub Pages")}/>
@@ -82,7 +82,7 @@ return (
         </div>
     </div>
 
-        <div className="lignedeux flex space-x-2">
+        <div className="lignedeux flex flex-wrap justify-center gap-2 sm:gap-3">
             <div className=" bg-white border-2 border-violet-300 rounded px-1 py-1 hover:bg-[#F0E6F7] transition text-3xl text-[#6546da]">
             <Affichage value="JUPYTER NOTEBOOK" onClick={() => 
                 setMessage("Prototypage de modèles ML (scikit-learn, pandas),\n Visualisation de données,\n Nettoyage et Exploration interactive,\n Validation croisée et évaluation des performances.")}/>
@@ -98,7 +98,7 @@ return (
                 
         </div>
 
-        <div className="lignetrois flex space-x-2">
+        <div className="lignetrois flex flex-wrap justify-center gap-2 sm:gap-3">
              <div className=" bg-white border-2 border-violet-300 rounded px-1 py-1  transition w-32 h-16"/>
             <div className=" bg-white border-2 border-violet-300 rounded px-1 py-1 hover:bg-[#F0E6F7] transition text-3xl text-[#6546da]">
             <Affichage value="CSS"onClick={(value) => 
@@ -115,7 +115,7 @@ return (
             <div className=" bg-white border-2 border-violet-300 rounded px-1 py-1  transition w-32 h-16"/>
         </div>
 
-            <div className="lignequatre flex space-x-2">
+            <div className="lignequatre flex flex-wrap justify-center gap-2 sm:gap-3">
             <div className=" bg-white border-2 border-violet-300 rounded px-1 py-1  transition w-16 h-16"/>
             <div className=" bg-white border-2 border-violet-300 rounded px-1 py-1  transition w-16 h-16"/>
             <div className=" bg-white border-2 border-violet-300 rounded px-1 py-1  transition w-16 h-16"/>
@@ -132,7 +132,7 @@ return (
             <div className=" bg-white border-2 border-violet-300 rounded px-1 py-1  transition w-16 h-16"/>
         </div>
     </div>
-<div className="w-[250px] h-[250px]">
+<div className="w-[150px] sm:w-[200px] md:w-[250px] mt-8">
     <LordiconMouse />
   </div>
 </div>
