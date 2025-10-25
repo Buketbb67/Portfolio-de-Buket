@@ -13,10 +13,10 @@ function Bouton({ label, onClick }) {
 
 function Boutonapropos() {
   const pages = [
-    "Je m’appelle Buket Bagci et je suis aujourd'hui développeuse en devenir, et pourtant rien ne me prédestinait à l'informatique. Comment en suis-je arrivée là ? Voyons ensemble mon parcours.",
-    "Avant l'informatique, j'étais journaliste. J'ai travaillé pour France Télévisions, Arte et BFMTV. J'ai voyagé partout en France et parfois à l'étranger pour réaliser des reportages pour ces chaînes.",
+    "Je m’appelle Buket Bagci, je suis une journaliste en reconversion professionnelle. J'adore lire, peindre, courrir et pleins d'autres choses encore. Il y a encore un an, je ne connaissais rien à l'informatique, rien ne me prédestinait à ce domaine. Et pourtant je suis aujourd'hui développeuse en devenir. Comment en suis-je arrivée là ? Voyons ensemble mon parcours.",
+    "Avant d'entrer à Epitech, j'étais journaliste. J'ai travaillé pour France Télévisions, Arte et BFMTV. J'ai voyagé partout en France et parfois à l'étranger pour réaliser des reportages pour ces chaînes.",
     "Ensuite, j'ai œuvré dans le secteur associatif, notamment à la Banque Alimentaire. J'étais assistante de direction, RH et responsable communication. J'y ai appris beaucoup de compétences mais je sentais qu'il manquait quelque chose.",
-    "En quête d'identité profesionnelle, j'ai alors décidé de faire un bilan de compétences pour mettre des mots sur mon souhait professionnel.",
+    "En quête d'identité profesionnelle, j'ai alors décidé de faire un bilan de compétences pour mettre des mots sur mon souhait professionnel. Je suis une personne curieuse désireuse d'apprendre constamment de nouvelle chose et de créer une technologie au service des humains.",
     "Aujourd’hui, j'apprends avec enthousiasme l'informatique et plus précisément le développement. Ce domaine stimule ma curiosité, correspond à mes valeurs et me permet de construire des solutions concrètes et durables."
   ];
 
@@ -32,7 +32,7 @@ function Boutonapropos() {
 
   return (
     <div className="flex flex-col items-center justify-between h-full">
-      <div className="text-md text-[#6546da] text-center px-6 whitespace-pre-line max-w-2xl ">
+      <div className="text-md text-[#6546da] text-3xl text-center px-6 whitespace-pre-line max-w-2xl ">
         {pages[page]}
       </div>
 

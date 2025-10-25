@@ -41,7 +41,7 @@ function Jourdepassement() {
                 Le modèle est codé en Python avec Pandas pour le traitement des données et Matplotlib pour les visualisations.
                 <br /><br />
                 Mes principales difficultés sont dues à la qualité des données, dépendantes des contributions nationales, ainsi qu'à l'optimisation de l'affichage pour assurer une bonne lisibilité.
-                Pour améliorer le projet, je prévois de renforcer de rajouter un simulateur du jour du dépassement futur par pays.
+                Pour améliorer le projet, je prévois de rajouter un prédicteur du jour du dépassement par pays pour les années à venir.
             </p>
           </div>
         </div>
