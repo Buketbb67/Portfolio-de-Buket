@@ -10,11 +10,9 @@ import Cancersein from "./pages/cancersein.jsx";
 import Mario from "./pages/mariobros.jsx";
 import Jourdepassement from "./pages/jourdepassement.jsx";
 
-
-
 function App() {
     return (
-        <Router>
+        <Router basename="/Portfolio-de-Buket">
             <Routes>
                 <Route path="/" element={<Main/>}/>
                 <Route path="/competencestechniques" element={<Competencestechniques/>}/>
@@ -28,4 +26,5 @@ function App() {
         </Router>
     );
 }
-export default App; 
+
+export default App;
