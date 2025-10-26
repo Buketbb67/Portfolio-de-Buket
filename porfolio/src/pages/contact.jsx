@@ -11,7 +11,7 @@ function Contact() {
 
         <div className="bg-white p-6 sm:p-8 rounded-lg border-4 border-[#B68CD1] shadow-md w-full max-w-md flex flex-col items-center">
           
-          <p className="text-[#744D8C] font-medium mb-4 text-center">
+          <p className="text-[#6546da] font-medium mb-4 text-center">
             Vous avez une idée de projet et vous souhaitez le concrétiser avec moi ? <br />
             Vous voulez me rencontrer pour en discuter ? Travaillons ensemble !
           </p>
@@ -22,9 +22,9 @@ function Contact() {
             className="w-32 h-32 sm:w-40 sm:h-40 mb-4 object-cover"
           />
 
-          <p className="text-[#744D8C] font-medium mb-4 text-center">
+          <p className="text-[#6546da] font-medium mb-4 text-center">
             Contactez-moi : <br /> <br />
-            <i className='bx bx-phone' style={{ color: "#5a46e0", width: "24px", height: "24px" }}></i> 07.81.69.60.87 <br />
+            <i className='bx bx-phone' style={{ color: "text-[#6546da]", width: "24px", height: "24px" }}></i> 07.81.69.60.87 <br />
             <i className='bx bx-at' style={{ color: "#5a46e0", width: "24px", height: "24px" }}></i> buket.bagci@epitech.eu
           </p>
 
