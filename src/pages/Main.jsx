@@ -42,7 +42,7 @@ function Main() {
         <div className="w-full lg:w-[32rem] bg-white border-4 border-[#B68CD1] p-6 font-semibold text-[#6546da] rounded shadow-md overflow-visible">
           <Typewriter
             text={
-              " Bonjour ! Je m'appelle Buket, j'ai 26 ans et je suis étudiante en informatique à Epitech Strasbourg. Je suis passionnée par l'intelligence artificielle et les données. Explorez mon univers et découvrez mes projets."
+              "\u00A0Bonjour ! Je m'appelle Buket, j'ai 26 ans et je suis étudiante en informatique à Epitech Strasbourg. Je suis passionnée par l'intelligence artificielle et les données. Explorez mon univers et découvrez mes projets."
             }
             speed={30}
           />
