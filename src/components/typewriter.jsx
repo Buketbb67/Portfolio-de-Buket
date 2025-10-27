@@ -29,7 +29,7 @@ function useTypewriter(text, speed = 50) {
 function Typewriter ({ text, speed }) {
   const displayText = useTypewriter(text, speed);
 
-  return <p>
+  return <p className="overflow-visible">
       {displayText}
         </p>
 }
