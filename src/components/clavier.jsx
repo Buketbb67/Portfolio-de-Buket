@@ -49,7 +49,7 @@ return (
 
         <div className="text-lg sm:text-xl text-center text-[#6546da]">
           <Typewriter 
-            text={"Cliquez sur une touche pour découvrir mes compétences !"}
+            text={" Cliquez sur une touche pour découvrir mes compétences !"}
             speed={30}
             />
         </div>
