@@ -44,10 +44,10 @@ return (
           w-full sm:w-[80%] md:w-[60%] lg:w-[50%] {/* pour la largeur responsive*/}
           h-[250px] sm:h-[300px] md:h-[350px] lg:h-96 {/* pour la hauteur responsive*/}
           flex flex-col items-center justify-start 
-          overflow-auto
+          overflow-visible
           mb-8">
 
-        <div className="text-lg sm:texte-xl text-center text-[#6546da]">
+        <div className="text-lg sm:text-xl text-center text-[#6546da]">
           <Typewriter 
             text={"Cliquez sur une touche pour découvrir mes compétences !"}
             speed={30}
@@ -55,7 +55,7 @@ return (
         </div>
 
 {message && (
-          <div className="text-center text-[#6546da] texte-sm sm:text-md mt-4 px-4 whitespace-pre-line">
+          <div className="text-center text-[#6546da] text-sm sm:text-md mt-4 px-4 whitespace-pre-line">
             {message}
           </div>
         )}
