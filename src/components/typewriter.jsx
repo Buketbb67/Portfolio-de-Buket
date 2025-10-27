@@ -4,7 +4,7 @@ function useTypewriter(text, speed = 50) {
   const [displayText, setDisplayText] = useState('');
 
   useEffect(() => {
-    let i = 1;
+    let i = 0;
     let isCancelled = false;
 
     const type = () => {
