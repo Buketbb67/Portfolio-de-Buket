@@ -12,7 +12,7 @@ import Jourdepassement from "./pages/jourdepassement.jsx";
 
 function App() {
     return (
-        <Router basename="/Portfolio-de-Buket">
+        <Router>
             <Routes>
                 <Route path="/" element={<Main/>}/>
                 <Route path="/competencestechniques" element={<Competencestechniques/>}/>
